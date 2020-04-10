@@ -45,11 +45,11 @@ class ResultsPage extends StatelessWidget {
                       style: kResultTextStyle,
                     ),
                     Text(
-                      bmiResult.toUpperCase(),
+                      bmiResult,
                       style: kBMITextStyle,
                     ),
                     Text(
-                      interpretation.toUpperCase(),
+                      interpretation,
                       textAlign: TextAlign.center,
                       style: kBodyTextStyle,
                     ),
